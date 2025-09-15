@@ -6,29 +6,29 @@ This repository provides two end-to-end implementations of a spam email classifi
 
 #### MultinomialNB:
 
-    A Naive Bayes classifier designed for discrete features such as word counts. It assumes that word occurrences follow a multinomial distribution, making it well-suited for text classification tasks like spam detection.
+A Naive Bayes classifier designed for discrete features such as word counts. It assumes that word occurrences follow a multinomial distribution, making it well-suited for text classification tasks like spam detection.
 
 #### CountVectorizer:
 
-    Converts raw text into a matrix of token counts. Each document is represented by the frequency of words it contains, serving as the input features for classifiers.
+Converts raw text into a matrix of token counts. Each document is represented by the frequency of words it contains, serving as the input features for classifiers.
 
 ### PyTorch Components
 
 #### TfidfVectorizer:
 
-    Transforms text into numerical features using Term Frequency–Inverse Document Frequency. Unlike simple counts, it reduces the weight of common words and emphasizes rare but informative words.
+Transforms text into numerical features using Term Frequency–Inverse Document Frequency. Unlike simple counts, it reduces the weight of common words and emphasizes rare but informative words.
 
 #### Recurrent Neural Network (RNN):
 
-    A type of neural network designed to handle sequential data. It processes input word embeddings step by step, capturing temporal dependencies in text, making it effective for spam/ham classification.
+A type of neural network designed to handle sequential data. It processes input word embeddings step by step, capturing temporal dependencies in text, making it effective for spam/ham classification.
 
 #### CrossEntropyLoss:
 
-    A loss function commonly used for classification tasks. It measures the difference between predicted class probabilities and the true class labels.
+A loss function commonly used for classification tasks. It measures the difference between predicted class probabilities and the true class labels.
 
 #### Adam Optimizer:
 
-    An adaptive optimization algorithm that combines the benefits of AdaGrad and RMSProp. It adjusts learning rates dynamically, leading to faster and more efficient training.
+An adaptive optimization algorithm that combines the benefits of AdaGrad and RMSProp. It adjusts learning rates dynamically, leading to faster and more efficient training.
 
 ## Getting Started
 
