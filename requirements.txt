@@ -1,0 +1,10 @@
+fastapi==0.116.1
+Flask==3.1.2
+matplotlib==3.10.6
+numpy==2.3.3
+pandas==2.3.2
+pydantic==2.11.9
+scikit_learn==1.7.2
+seaborn==0.13.2
+torch==2.8.0
+uvicorn==0.23.2
